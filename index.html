@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./arrow-repeat.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Tayorgarlik</title>
+</head>
+<body>
+
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a style="color: white;" class="navbar-brand" href="#">Карусель</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a style="color: white;" class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="color: white; opacity: 0.5;" class="nav-link" href="#">Ссылка</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="color: white; opacity: 0.3;" class="nav-link disabled" aria-disabled="true">Отключенная</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                  <button class="btn btn-outline-success" type="submit">Поиск</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <div id="carouselExampleIndicators" class="carousel slide mb-5">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="https://images.unsplash.com/photo-1610986603166-f78428624e76?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 object-fit-cover" alt="..." height="600px">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h5 class="fs-1 mb-2">Пример заголовка.</h5>
+                    <p class="fs-4 mb-3">Некоторое репрезентативное содержимое-заполнитель для первого слайда карусели.</p>
+                    <button type="button" class="btn btn-primary mb-5">Sign up today</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 object-fit-cover" alt="..." height="600px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="fs-1 mb-2">Другой пример заголовка.</h5>
+                    <p class="fs-4 mb-3">Некоторое репрезентативное содержимое-заполнитель для второго слайда карусели.</p>
+                    <button type="button" class="btn btn-primary mb-5">Learn more</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1577648188599-291bb8b831c3?q=80&w=1779&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 object-fit-cover" alt="..." height="600px">
+                <div class="carousel-caption d-none d-md-block text-end">
+                    <h5 class="fs-1 mb-2">Еще один для хорошей меры.</h5>
+                    <p class="fs-4 mb-3">Некоторые репрезентативные материалы-заполнители для третьего слайда этой карусели.</p>
+                    <button type="button" class="btn btn-primary mb-5">Primary</button>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+            <div style="width: 1000px; margin: 0 auto;" class="d-flex align-items-center gap-3">
+                <div style="border: none;" class="card text-center mb-3">
+                    <div class="card-body">
+                        <img style="border-radius: 50%; margin-bottom: 15px;"  src="https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?q=80&w=2027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="200" height="200">
+                      <h5 style="color: grey;" class="card-title">Заголовок</h5>
+                      <p style="color: grey;" class="card-text">Некоторый типичный заполнитель для трех столбцов текста под каруселью. Это первая колонка.</p>
+                      <a href="#" class="btn btn-dark">Посмотреть детали <img src="./chevron-double-right.svg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="card text-center mb-3" style="border: none;">
+                    <div class="card-body">
+                        <img style="border-radius: 50%; margin-bottom: 15px;" src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="200" height="200">
+                      <h5 style="color: grey;" class="card-title">Заголовок</h5>
+                      <p style="color: grey;" class="card-text">Некоторый типичный заполнитель для трех столбцов текста под каруселью. Это первая колонка.</p>
+                      <a href="#" class="btn btn-dark">Посмотреть детали <img src="./chevron-double-right.svg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="card text-center mb-3" style="border: none;">
+                    <div class="card-body">
+                        <img style="border-radius: 50%; margin-bottom: 15px;" src="https://images.unsplash.com/photo-1593720216276-0caa6452e004?q=80&w=1912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="200" height="200">
+                      <h5 style="color: grey" class="card-title">Заголовок</h5>
+                      <p style="color: grey;" class="card-text">Некоторый типичный заполнитель для трех столбцов текста под каруселью. Это первая колонка.</p>
+                      <a href="#" class="btn btn-dark">Посмотреть детали <img  src="./chevron-double-right.svg" alt=""></a>
+                    </div>
+                  </div>
+            </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
